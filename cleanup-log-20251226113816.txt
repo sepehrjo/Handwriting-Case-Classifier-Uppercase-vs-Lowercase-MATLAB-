@@ -1,0 +1,17 @@
+Cleanup Log - 20251226113816
+
+The repository was found to be very clean with no redundant files like .DS_Store or build artifacts.
+The main action taken was to flatten the directory structure by moving the core MATLAB files and image folders from the 'Handwriting Case Classifier' subfolder to the root directory.
+A .gitignore file was added to prevent future clutter from MATLAB temporary files.
+The README.md was rewritten to provide clear instructions on how to run the classifier.
+
+Summary of changes:
+- Moved LowercaseUppercase.m to root.
+- Moved lowercase/ folder to root.
+- Moved uppercase/ folder to root.
+- Removed empty 'Handwriting Case Classifier' folder.
+- Added .gitignore.
+- Updated README.md.
+
+Backup branch: cleanup/backup-20251226113816
+Patch file: repo-cleanup-20251226113816.patch

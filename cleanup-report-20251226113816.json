@@ -1,0 +1,28 @@
+{
+  "list_kept": [
+    "LowercaseUppercase.m",
+    "lowercase/",
+    "uppercase/",
+    "README.md"
+  ],
+  "list_removed": [
+    "Handwriting Case Classifier/"
+  ],
+  "list_moved": [
+    {
+      "from": "Handwriting Case Classifier/LowercaseUppercase.m",
+      "to": "LowercaseUppercase.m"
+    },
+    {
+      "from": "Handwriting Case Classifier/lowercase/",
+      "to": "lowercase/"
+    },
+    {
+      "from": "Handwriting Case Classifier/uppercase/",
+      "to": "uppercase/"
+    }
+  ],
+  "patch_file": "repo-cleanup-20251226113816.patch",
+  "backup_branch": "cleanup/backup-20251226113816",
+  "total_space_reclaimed_bytes": 0
+}
